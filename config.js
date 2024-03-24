@@ -8,10 +8,10 @@ global.mongodb = process.env.MONGODB_URI || "mongodb+srv://ahil1:787191784abhi@a
 global.port= process.env.PORT || 5000
 global.email = 'maxdavid126@gmail.com'
 global.github = 'https://github.com/Xcelsama/STAR-MD'
-global.location = 'Lahore pakistan'
+global.location = 'Kolkata,India'
 global.gurl = 'https://instagram.com/sreejanedit' // add your username
 global.sudo = process.env.SUDO || "917439382677"
-global.devs = '2347045035241'
+global.devs = '917439382677'
 global.website = 'https://github.com/Xcelsama/STAR-MD' //wa.me/+919874188403
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/I1wyk9t.jpeg'
 module.exports = {
@@ -37,7 +37,7 @@ module.exports = {
   BRANCH: 'main', 
   ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE,
   autobio:  process.env.AUTO_BIO === undefined ? true : process.env.AUTO_BIO,
-  caption :process.env.CAPTION || "\t*𝐂𝐫𝐞𝐚𝐭𝐞 𝐛𝐲 𝐏𝐢𝐮-𝐌𝐝* ",   //*𝐐𝐮𝐞𝐞𝐧-𝐏𝐢𝐮*\n https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m"),	
+  caption :process.env.CAPTION || "\t*𝐂𝐫𝐞𝐚𝐭𝐞 𝐛𝐲 𝐏𝐢𝐮-𝐌𝐝* ",   //*𝐐𝐮𝐞𝐞𝐧-𝐏𝐢𝐮*\n https://chat.whatsapp.com/KIks9zxaRujBqDjNEQtY29"),	
   OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false : process.env.OPENAI_API_KEY,
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
   HEROKU: {
